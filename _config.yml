@@ -1,22 +1,22 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: ZhouFuliang Blog
+SEOTitle: 周福亮的博客 | ZhouFuliang Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+email: 1376908681@qq.com
+description: "这里是 @ZhouFuliang 周福亮 的个人博客，做出改变行业的软件 | 要做一个有梦想 的程序员"
+keyword: "周福亮, ZhouFuliang周福亮, AliangZhou, Aliang, 南瓜大师-阿亮，ZhouFuliang Blog, 博客, 个人网站, 互联网, C++, Qt, QML, MySQL, 前端, 设计"
+url: "https://aliangzhou.github.io" # your host, for absolute URL
+baseurl: "https://blog.csdn.net/u013351233?type=blog" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
+weibo_username: AliangZhou
+zhihu_username: AliangZhou
+github_username: AliangZhou
+twitter_username: AliangZhou
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -74,8 +74,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "要做一个有 梦想 的程序员 <br> React Team @ Meta"
+sidebar-avatar: https://github.com/AliangZhou/MySelfFile.git/AliangZhou.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
