@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      "C++单例模式 2025"
+subtitle:   " \"C++单例模式 Blog\""
+date:       2025-02-22 12:00:00
+author:     "AliangZhou"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - Meta
+---
+
 # 介绍
 单例模式(Singleton Pattern，也称为单件模式，使用最广泛的设计模式之一。其意图是保证一个类仅有一个实例，并提供一个访问它的全局访问点，该实例被所有程序模块共享。
 ## UML类图
