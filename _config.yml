@@ -6,7 +6,7 @@ email: 1376908681@qq.com
 description: "这里是 @ZhouFuliang 周福亮 的个人博客，做出改变行业的软件 | 要做一个有梦想 的程序员"
 keyword: "周福亮, ZhouFuliang周福亮, AliangZhou, Aliang, 南瓜大师-阿亮，ZhouFuliang Blog, 博客, 个人网站, 互联网, C++, Qt, QML, MySQL, 前端, 设计"
 url: "https://aliangzhou.github.io" # your host, for absolute URL
-baseurl: "https://blog.csdn.net/u013351233?type=blog" # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/blog" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
