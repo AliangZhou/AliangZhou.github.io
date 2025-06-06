@@ -19,7 +19,7 @@ tags:
 ## 懒汉模式
 系统运行时候并不存在，只有在需要使用该实例时，才会创建。**这种方式需要考虑线程安全**
 
-```C++
+```c++
 #ifndef TRANSMITSIGNALS_H
 #define TRANSMITSIGNALS_H
 #include <QObject>
@@ -42,7 +42,7 @@ public slots:
 #endif // TRANSMITSIGNALS_H
 ```
 transmitsignals.cpp
-```C++
+```c++
 #include "transmitsignals.h"
 #include <QDebug>
 TransmitSignals* TransmitSignals::m_pInstance = nullptr;
@@ -107,7 +107,7 @@ Q_GLOBAL_STATIC(MyType, staticType)
 上面的示例创建了一个名为staticType的QGlobalStatic类型的对象。在上述声明之后，可以像使用指针一样使用staticType对象，保证只初始化一次。除了用作指针之外，该对象还提供了两个方法来确定全局变量的当前状态:exists()和isDestroyed()。
 
 **列子**：
-```C++
+```c++
 
 #ifndef SIGEVENTTRANSIT_H
 #define SIGEVENTTRANSIT_H
@@ -134,7 +134,7 @@ SigEventTransit &SigEventTransit::getInstance()
 ## C++11带的线程安全模式(饿汉)
 
 **列子**：
-```C++
+```c++
 #include <iostream>
 #include <thread>
 #include <queue>
