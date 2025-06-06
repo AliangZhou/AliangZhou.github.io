@@ -132,6 +132,7 @@ SigEventTransit &SigEventTransit::getInstance()
 }
 ```
 ## C++11带的线程安全模式(饿汉)
+
 ```C++
 #include <iostream>
 #include <thread>
@@ -233,5 +234,4 @@ int main()
     thread2.join();
     return 0;
 }
-
-、、、
+```
